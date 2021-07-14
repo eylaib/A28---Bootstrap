@@ -1,0 +1,53 @@
+.menu{
+
+    ul{
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    }
+}
+
+.price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    p{
+        width: 60%;
+    }
+}
+
+.card{
+
+    text-align: center;
+
+    ul{
+       
+        list-style: none; 
+       
+    }
+
+    .my-btn{
+        width: 80%;
+    }
+
+}
+
+.list{
+    list-style: none;
+
+    a{
+        text-decoration: none;
+        color: black;
+    }
+}
+
+.container{
+    margin-bottom: 100px;
+}
